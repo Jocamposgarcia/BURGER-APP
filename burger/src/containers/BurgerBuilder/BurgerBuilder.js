@@ -15,7 +15,7 @@ class BurgerBuilder extends Component {
                 cheese: 2,
                 meat:2
 
-
+hello my name is {props.name}
 
             }
 
@@ -33,6 +33,7 @@ class BurgerBuilder extends Component {
             <Aux>
                 <Burger ingredients={this.state.ingredients} />
                 <div>Build Controls </div>
+                <p>rgrhrhr</p>
                 </Aux>
             
             
